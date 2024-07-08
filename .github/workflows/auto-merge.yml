@@ -10,7 +10,7 @@ jobs:
     - name: Check The repo
       uses: action/checkout@v3
       with:
-        token: ${{ secrets.ACTIONS_PAT}}
+        token: ${{secrets.ACTIONS_PAT}}
     - name : Config Git
       run:
        git config --global user.name 'RaneshKonni'
