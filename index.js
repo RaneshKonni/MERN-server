@@ -27,6 +27,10 @@ function TESTING(){
     return 1;
 }
 
+function Test2(){
+    return false;
+}
+Test2();
 TESTING();
 
 StartServer();
