@@ -28,7 +28,7 @@ function TESTING(){
 }
 
 function Test2(){
-    return false;
+    return true;
 }
 Test2();
 TESTING();
