@@ -23,6 +23,10 @@ async function StartServer(){
  console.log('server live 3001');
  })
 }
+function TESTING(){
+    return 0;
+}
 
+TESTING();
 
 StartServer();
