@@ -24,9 +24,13 @@ async function StartServer(){
  })
 }
 function TESTING(){
-    return 0;
+    return 1;
 }
 
+function Test2(){
+    return true;
+}
+Test2();
 TESTING();
 
 StartServer();
